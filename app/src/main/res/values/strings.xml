@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">OEI Decision Tool</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="tv_forgotpassword">Forgot password ?</string>
+    <string name="tv_creatAccount">Create an account</string>
+    <string name="tv_welcome">Welcome</string>
+    <string name="tv_appName">OEI Decision Analysis Tool</string>
+    <string name="sign_up">Submit</string>
+
+
+    <string name="tv_make_selection">Make a Selection</string>
+    <string name="btn_voting">Voting</string>
+    <string name="btn_criteria">Create Criteria</string>
+    <string name="btn_cost">Assign Costs</string>
+    <string name="btn_result">See Project Results</string>
+
+
+    <string name="question">1) Admin fill out Ideals that Users vote on</string>
+    <string name="tv_vote_note">1 is Lowest, 10 is Highest, 0 is to Abstain</string>
+    <string name="tv_final_votes">Review all Votes</string>
+
+
+    <string-array name="numbers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="item_criteria">Item Criteria</string>
+    <string name="btn_review_criteria">Review Project Item List</string>
+    <string name="btn_create_criteria">Create Criteria</string>
+    <string name="btn_edit_criteria">Review/EditCreated Criteria</string>
+
+
+    <string name="projected_costs_title">Projected Costs</string>
+    <string name="btn_review_cost">Review Project Item List</string>
+    <string name="btn_assign_cost">Assign Projected Cost and Assumptions</string>
+    <string name="btn_edit_cost">Review/Edit Projected Costs and Assumptions</string>
+
+
+</resources>

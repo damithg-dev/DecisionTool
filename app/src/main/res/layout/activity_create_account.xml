@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.damithamarasinghe.oeidecisiontool.Activites.CreateAccountActivity"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Create account"
+            android:textSize="21dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            />
+        <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dip"
+        android:hint="Name"
+        android:imeOptions="actionNext"
+        android:paddingLeft="7dip"
+        android:singleLine="true"
+            android:fontFamily="sans-serif"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text_background"/>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_Head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:paddingLeft="7dip"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/edit_text_background"/>
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_uname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="10dip"
+            android:hint="Password"
+            android:imeOptions="actionDone"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/edit_text_background"/>
+        <EditText
+            android:id="@+id/et_retype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_uname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="10dip"
+            android:hint="Re-type password"
+            android:imeOptions="actionDone"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:background="@drawable/edit_text_background"/>
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/sign_up"
+            android:fontFamily="sans-serif"
+            android:background="@color/colorAccent"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
